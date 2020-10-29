@@ -1,9 +1,13 @@
 # NPL_unionNews_WordCloud
 unionNews_WordCloud 新聞雲
 
+網頁爬蟲應用 
+
+jieba、wordcloud 模組應用
+
 # 程式執行：
 1. 執行主程式unionNews.py
-2. 爬蟲爬取每則新聞網址後，取得所有新聞內容，運用"jeiba"模組設定詞庫、停用詞、拆解字詞，存入terms[]陣列
+2. 爬蟲爬取每則新聞網址後，取得所有新聞內容，運用"jieba"模組設定詞庫、停用詞、拆解字詞，存入terms[]陣列
 3. diction = Counter(terms) 取得拆解後的每個字詞出現次數
 4. wordcloud 模組，設定文字雲字型、文字雲形狀(heart.png)、背景顏色，最後產生文字雲
 5. matplotlib 模組產生圖片
