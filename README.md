@@ -1,9 +1,9 @@
 # NPL_unionNews_WordCloud
 unionNews_WordCloud 新聞雲
 
-網頁爬蟲應用 
+網頁爬蟲應用  
 
-jieba、wordcloud 模組應用
+jieba、wordcloud 模組應用  
 
 # 程式執行：
 1. 執行主程式unionNews.py
@@ -12,8 +12,8 @@ jieba、wordcloud 模組應用
 4. wordcloud 模組，設定文字雲字型、文字雲形狀(heart.png)、背景顏色，最後產生文字雲
 5. matplotlib 模組產生圖片
 6. 最後 wordcloud.to_file("union_WordCloud.png") 存檔
-7. get_newUrl.py -- re_url(url)
-   處理新聞連結出錯問題:
+7. get_newUrl.py -- re_url(url)  
+   處理新聞連結出錯問題:  
    一. 原網址get後爬取不到資料內容，因為會產生新網址與原網址不同，重新爬取取得新網址
    二. 有的新聞只有會員才可讀取
 
